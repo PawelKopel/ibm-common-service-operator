@@ -39,7 +39,7 @@ metadata:
     ibm-crossplane-provider: {{ .CrossplaneProvider }}
 spec:
   ignoreCrossplaneConstraints: false
-  package: 'quay.io/opencloudio/ibm-crossplane-bedrock-shim-config:1.1.0'
+  package: fromEnvVar
   packagePullPolicy: Always
   revisionActivationPolicy: Automatic
   revisionHistoryLimit: 1
